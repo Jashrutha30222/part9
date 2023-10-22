@@ -1,0 +1,316 @@
+app js
+import Profile from'./ui/profile';
+import coffeLogo from "./coffe.jpeg"
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      
+      
+     <Profile/>
+     
+     <table align="center" border="15px" width="150px" height="150px"  >
+      <tr>
+        <th>SNo</th>
+        <th>Name </th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>Village Name</th>
+      </tr>
+      <tr>
+        <td>1.</td>
+        <td>Jashrutha</td>
+        <td>18</td>
+        <td>Female</td>
+        <td>Aswaraopeta</td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td>Mahitha</td>
+          <td>18</td>
+          <td>Female</td>
+          <td>Vijayawada</td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td>Kavyanjali</td>
+          <td>18</td>
+          <td>Female</td>
+          <td>Nellore</td>
+         
+        </tr>
+        <tr>
+          <td>4.</td>
+          <td>sreeja</td>
+          <td>18</td>
+          <td>Female</td>
+          <td>Vizag</td>
+         
+        </tr>
+        
+    
+    </table>
+    <h1>Courses</h1>
+    <table border="5" cellspacing="0" cellPadding="3" align="center">
+      <tr>
+        <th>S NO</th>
+        <th>Couse Name</th>
+        <th>
+          Modes</th>
+          <th>L-T-P-S</th>
+        </tr>
+        <tr>
+          <td>1.
+          </td>
+          <td>Data Driven and Artificial Intelligence System</td>
+          <td>Advance</td>
+          <td>3-0-4-0-5</td>
+        </tr>
+        <tr>
+        <td>2.
+          </td>
+          <td>Operating Systems</td>
+          <td>Regular</td>
+          <td>2-0-2-0-3-</td>
+        </tr>
+        <tr>
+        <td>3.
+          </td>
+          <td>Mern stack and web Development </td>
+          <td>Advance</td>
+          <td>0-0-6-4-4</td>
+          </tr>
+          <tr>
+            <td>4.</td>
+          <td>Problem Solving </td>
+          <td>Regular</td>
+          <td>0-0-2-0-0</td>
+          </tr>
+          <tr>
+            <td>5.</td>
+          <td>Mathematical Programming </td>
+          <td>Regular</td>
+          <td>2-0-2-0</td>
+          </tr>
+          <tr>
+            <td>6.</td>
+          <td>Design And Analysis of Algorithm </td>
+          <td>Advance</td>
+          <td>4-0-4-0-6</td>
+          </tr>
+         </table>
+
+
+
+         <h1> Time Table</h1>
+    <table align="center" border="10" cellSpacing="5" cellPadding="5">
+
+      
+      <tr>
+        <th>Day</th>
+      <th>1-2(9am-11am)</th>
+      <th>3-4(11:10-1pm)</th>
+      <th>5-6(1:30-3:30)</th>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td>DBMS,
+            M121,section-27
+        </td>
+        <td>Problem Solving,M202,Section-21</td>
+        <td>Proccessor and controllers,R107A
+          ,Section-24
+        </td>
+     </tr>
+     <tr>
+     <td>Tuesday</td>
+        
+        <td>Problem Solving,M030,Section-21</td>
+        <td>Mathematical Programming,C107A,Section-24</td>
+        <td>DBMS,
+            M127,section-27
+        </td>
+          
+        
+     </tr>
+     <tr>
+     <td>Wednesday</td>
+        <td>Daa,
+            c121,section-22
+        </td>
+        <td>Data Driven and Artificial Intellegence,R202,Section-21</td>
+        <td>DBMS,R107A
+          ,Section-24
+        </td>
+     </tr>
+     <tr>
+     <td>Thursday</td>
+        <td>Mern Stack and Web Development,
+            C121,section-24
+        </td>
+        <td>ATFL,M202,Section-21</td>
+        <td>Proccessor and controllers,R107A
+          ,Section-24
+        </td>
+     </tr>
+     <td>Friday</td>
+        <td>--</td>
+        <td>--</td>
+        <td>--</td>
+     <tr>
+     <td>saturday</td>
+        <td>DBMS,
+            M121,section-27
+        </td>
+        <td>Problem Solving,M202,Section-21</td>
+        <td>Daa,C107A
+          ,Section-22
+        </td>
+        </tr>
+        <tr>
+        <td>Sunday</td>
+       <td>Social Immerse,L029,Section 2</td>
+       <td>Social Immerse,L029,Section 2</td>
+       <td>Social Immerse,L029,Section 2</td>
+     </tr>
+    </table>
+  <h1>Attendance Sheet</h1>
+    <table align="center" border="5" cellSpacing="3" cellPadding="3">
+      <tr>
+        <th>S.No</th>
+        <th>CouseCode</th>
+        <th>L-T-P-S</th>
+        <th>Section</th>
+        <th>Year</th>
+        <th>Semester</th>
+        <th>Total Conducted</th>
+        <th>Attnded</th>
+        <th>Total Absent</th>
+        <th>Tcbr</th>
+        <th>Percentage</th>
+      </tr>
+      <tr>
+      <td>1.</td>
+      <td>22AD2001A</td>
+      <td>L</td>
+      <td>24
+      </td>
+      <td>2023-2024</td>
+      <td>odd</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>100%</td>
+      </tr>
+      <tr>
+      <td>2.</td>
+      <td>22CS2205A</td>
+      <td>L</td>
+      <td>23
+      </td>
+      <td>2023-2024</td>
+      <td>odd</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>2</td>
+      <td>0%</td>
+      </tr>
+      <tr>
+      <td>3..</td>
+      <td>22EC2106</td>
+      <td>p</td>
+      <td>22
+      </td>
+      <td>2023-2024</td>
+      <td>odd</td>
+      <td>3</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0</td>
+      <td>80%</td>
+      </tr>
+      <tr>
+      <td>4..</td>
+      <td>22MT2004</td>
+      <td>T</td>
+      <td>24
+      </td>
+      <td>2023-2024</td>
+      <td>odd</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>100%</td>
+      </tr>
+      <tr>
+      <td>5.</td>
+      <td>22CS2002R</td>
+      <td>L</td>
+      <td>25
+      </td>
+      <td>2023-2024</td>
+      <td>odd</td>
+      <td>4</td>
+      <td>2</td>
+      <td>0</td>
+      <td>2</td>
+      <td>50%</td>
+      </tr>
+      <tr>
+      <td>6.</td>
+      <td>22UC3108</td>
+      <td>S</td>
+      <td>21
+      </td>
+      <td>2023-2024</td>
+      <td>odd</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>100%</td>
+      </tr>
+      <tr>
+      <td>7.</td>
+      <td>22AD2102R</td>
+      <td>S</td>
+      <td>24
+      </td>
+      <td>2023-2024</td>
+      <td>odd</td>
+      <td>4</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>60%</td>
+      </tr>
+
+    </table>
+    
+  
+     
+    
+    
+</div>
+    
+    
+  );
+}
+
+export default App;
+
+
+profile js
+import React from 'react'
+
+export default function profile() {
+  return (
+    <div>
+      <h1 align="center">profile</h1>
+      </div>
+  )
+}
